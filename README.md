@@ -3,12 +3,12 @@ Smarteye is an amazing method to determine whether a piece of text is written by
 
 # Installation
 
-# 1) Using main.py file
---> python -m venv env (create enviroment)
+ 1) Using main.py file
+--> python -m venv env (create environment)
 --> env\Scripts\activate (activate environment)
 --> pip install -r requirements.txt (install requirements)
 
-# 2) using docker
+ 2) using docker
 --> sudo docker build build -t smart-eye-image .
 --> sudo docker run -d -p 80:80 smart-eye-image 
 
