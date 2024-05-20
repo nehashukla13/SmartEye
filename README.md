@@ -12,10 +12,6 @@ Smarteye is an amazing method to determine whether a piece of text is written by
 --> sudo docker build build -t smart-eye-image .
 --> sudo docker run -d -p 80:80 smart-eye-image 
 
-Usage
-Using Python function
-python main.py
-
 example
 Please enter your sentence: (Press Enter twice to start processing)
 Hello World.
